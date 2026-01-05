@@ -31,5 +31,5 @@ This project is strictly for educational purposes. No testing was performed on p
 
 
 ## Author
-**Toibat Bamigboye*
+**Toibat Bamigboye**
 Cloud Security | Kubernetes Security | Penetration Testing
