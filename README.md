@@ -1,7 +1,3 @@
-![Kubernetes](https://img.shields.io/badge/Kubernetes-Security-blue)
-![MITRE ATT&CK](https://img.shields.io/badge/MITRE-ATT%26CK-red)
-![Kubectl](https://img.shields.io/badge/Kubectl-blue)
-
 # Kubernetes Security Attack Paths
 
 ## Overview
@@ -41,7 +37,7 @@ This project translates offensive findings into actionable defensive controls, i
 - impact-analysis/ `Risk and business impact assessment`
 - mitigation/ `Defensive recommendations`
 - lab-context/ `Environment and assumptions`
-- screenshots/ `Redacted supporting ecidence`
+- screenshots/ `Redacted supporting evidence`
 
 
 ## Disclaimer
