@@ -12,16 +12,23 @@ The enumeration revealed access beyond the default namespace, including the `kub
 
 Access to this namespace confirmed that the compromised service account had elevated permissions and posed a high risk to the overall cluster security.
 
+### Expanded Access Validation
+Further enumeration confirmed the ability to read Kubernetes secrets across accessible namespaces.
+
+Additionally, the compromised service account permitted the creation of a privileged pod. This pod was deployed successfully, resulting in root-level access on the underlying node.
+
 ### Why This Matters
 Namespaces are often treated as a security boundary. However, improper RBAC configurations can allow attackers to move freely between namespaces once authenticated.
 
 The `kube-system` namespace is particularly sensitive, as it contains components responsible for cluster operation and management.
 
 ### Impact
-- Visibility into cluster-wide workloads
-- Identification of high-value Kubernetes components
-- Increased likelihood of privilege escalation
-- Expanded blast radius of compromise
+- Unauthorized access to sensitive Kubernetes secrets
+- Ability to deploy privileged pods
+- Root-level access to the underlying node
+- Potential compromise of all workloads scheduled on the node
+- High likelihood of full cluster compromise
+
 
 ### Evidence
 See screenshots demonstrating namespace enumeration and access validation.
