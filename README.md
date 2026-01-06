@@ -1,3 +1,7 @@
+![Kubernetes](https://img.shields.io/badge/Kubernetes-Security-blue)
+![MITRE ATT&CK](https://img.shields.io/badge/MITRE-ATT%26CK-red)
+![Kubectl](https://img.shields.io/badge/Kubectl-blue)
+
 # Kubernetes Security Attack Paths
 
 ## Overview
